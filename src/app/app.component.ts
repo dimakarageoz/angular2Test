@@ -32,7 +32,7 @@ export class AppComponent {
 
   constructor(
     private componentFactoryResolver: ComponentFactoryResolver
-  ) { }
+  ) {}
 
   private createComp(type: string) {
 
