@@ -1,0 +1,8 @@
+.middleware {
+  width: 80%;
+  height: 80%;
+  padding: 10px;
+  border: 3px purple solid;
+  background: #E09DD9;
+  border-radius: 10px;
+}

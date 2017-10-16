@@ -1,0 +1,8 @@
+.dynamic-div {
+  width: 80%;
+  height:80%;
+  padding: 10px;
+  border: 3px green solid;
+  background: #92F08C;
+  border-radius: 10px;
+}

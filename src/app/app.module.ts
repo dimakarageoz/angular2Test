@@ -4,15 +4,29 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { DynamicCompComponent } from './dynamic-comp/dynamic-comp.component';
+import { MiddlewareDirective } from './middleware.directive';
+import {DimaComponent} from './dima/dima.component';
+import {SelectBlockComponent} from './select-block/select-block.component';
+import {SecondComponent} from './second/second.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DimaComponent,
+    SecondComponent,
+    SelectBlockComponent,
+    DynamicCompComponent,
+    MiddlewareDirective
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
+  ],
+  entryComponents: [
+    DynamicCompComponent,
+    SelectBlockComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
